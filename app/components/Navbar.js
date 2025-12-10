@@ -76,10 +76,19 @@ export default function Navbar() {
                             padding: '0.5rem 1rem',
                             display: 'flex',
                             gap: '0.5rem',
-                            background: '#333',
+                            background: '#dc143c',
                             color: '#fff',
-                            border: '1px solid #444',
-                            cursor: 'pointer'
+                            border: '1px solid #dc143c',
+                            cursor: 'pointer',
+                            transition: 'all 0.2s'
+                        }}
+                        onMouseOver={(e) => {
+                            e.target.style.background = '#b01030';
+                            e.target.style.borderColor = '#b01030';
+                        }}
+                        onMouseOut={(e) => {
+                            e.target.style.background = '#dc143c';
+                            e.target.style.borderColor = '#dc143c';
                         }}
                     >
                         <LogOut size={18} />
