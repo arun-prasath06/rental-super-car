@@ -4,17 +4,32 @@ import { useState } from 'react';
 
 export default function LoginModal({ onClose, onLogin }) {
     const [isLoading, setIsLoading] = useState(false);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [error, setError] = useState('');
 
     const handleGoogleLogin = async () => {
+        // Validate inputs
+        if (!name.trim() || !email.trim()) {
+            setError('Please enter both name and email');
+            return;
+        }
+
+        if (!email.includes('@')) {
+            setError('Please enter a valid email');
+            return;
+        }
+
+        setError('');
         setIsLoading(true);
 
         // Simulate loading for UX
         await new Promise(resolve => setTimeout(resolve, 800));
 
-        // Mock user data
+        // Mock user data with customer's input
         const mockUser = {
-            name: 'Arun Prasath',
-            email: 'arun.prasath@gmail.com',
+            name: name.trim(),
+            email: email.trim().toLowerCase(),
             timestamp: new Date().toISOString(),
             verified: true
         };
@@ -115,10 +130,63 @@ export default function LoginModal({ onClose, onLogin }) {
                     textAlign: 'center',
                     color: '#5f6368',
                     fontSize: '0.9rem',
-                    marginBottom: '2rem'
+                    marginBottom: '1.5rem'
                 }}>
                     to continue to Piston Rental-X Pro
                 </p>
+
+                {/* Input Fields */}
+                <div style={{ marginBottom: '1rem' }}>
+                    <input
+                        type="text"
+                        placeholder="Full Name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        style={{
+                            width: '100%',
+                            padding: '0.75rem',
+                            border: '1px solid #dadce0',
+                            borderRadius: '4px',
+                            fontSize: '0.95rem',
+                            outline: 'none',
+                            transition: 'border 0.2s'
+                        }}
+                        onFocus={(e) => e.target.style.borderColor = '#1a73e8'}
+                        onBlur={(e) => e.target.style.borderColor = '#dadce0'}
+                    />
+                </div>
+
+                <div style={{ marginBottom: '1rem' }}>
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        style={{
+                            width: '100%',
+                            padding: '0.75rem',
+                            border: '1px solid #dadce0',
+                            borderRadius: '4px',
+                            fontSize: '0.95rem',
+                            outline: 'none',
+                            transition: 'border 0.2s'
+                        }}
+                        onFocus={(e) => e.target.style.borderColor = '#1a73e8'}
+                        onBlur={(e) => e.target.style.borderColor = '#dadce0'}
+                    />
+                </div>
+
+                {/* Error Message */}
+                {error && (
+                    <p style={{
+                        color: '#d93025',
+                        fontSize: '0.85rem',
+                        marginBottom: '1rem',
+                        textAlign: 'center'
+                    }}>
+                        {error}
+                    </p>
+                )}
 
                 {/* Google Sign-In Button */}
                 <button
