@@ -1,19 +1,19 @@
 .page {
-  --background: #fafafa;
+  --background: #000;
   --foreground: #fff;
 
-  --text-primary: #000;
-  --text-secondary: #666;
+  --text-primary: #fff;
+  --text-secondary: #aaa;
 
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
+  --button-primary-hover: #ff1744;
+  --button-secondary-hover: #333;
+  --button-secondary-border: #dc143c;
 
   display: flex;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-geist-sans);
+  font-family: 'Outfit', sans-serif;
   background-color: var(--background);
 }
 
@@ -21,12 +21,11 @@
   display: flex;
   min-height: 100vh;
   width: 100%;
-  max-width: 800px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: var(--foreground);
-  padding: 120px 60px;
+  background-color: var(--background);
+  padding: 0;
 }
 
 .intro {
@@ -38,25 +37,28 @@
 }
 
 .intro h1 {
-  max-width: 320px;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: -2.4px;
+  max-width: 500px;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: 2px;
   text-wrap: balance;
   color: var(--text-primary);
+  text-transform: uppercase;
 }
 
 .intro p {
-  max-width: 440px;
-  font-size: 18px;
-  line-height: 32px;
+  max-width: 500px;
+  font-size: 1.1rem;
+  line-height: 1.6;
   text-wrap: balance;
   color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .intro a {
-  font-weight: 500;
+  font-weight: 700;
   color: var(--text-primary);
 }
 
@@ -64,61 +66,112 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 440px;
+  max-width: 500px;
   gap: 16px;
-  font-size: 14px;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
 }
 
 .ctas a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  padding: 0 16px;
-  border-radius: 128px;
-  border: 1px solid transparent;
-  transition: 0.2s;
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   cursor: pointer;
   width: fit-content;
-  font-weight: 500;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 a.primary {
-  background: var(--text-primary);
-  color: var(--background);
+  background: linear-gradient(135deg, #dc143c, #ff0000);
+  color: var(--foreground);
   gap: 8px;
+  box-shadow: 0 4px 15px rgba(220, 20, 60, 0.4);
 }
 
 a.secondary {
   border-color: var(--button-secondary-border);
+  color: var(--button-secondary-border);
+  background: transparent;
 }
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
-    background: var(--button-primary-hover);
-    border-color: transparent;
+    background: linear-gradient(135deg, #ff0000, #ff1744);
+    box-shadow: 0 8px 30px rgba(255, 0, 0, 0.6);
+    transform: translateY(-3px) scale(1.05);
   }
 
   a.secondary:hover {
-    background: var(--button-secondary-hover);
-    border-color: transparent;
+    background: rgba(220, 20, 60, 0.15);
+    border-color: #ff0000;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+}
+  }
+
+  a.secondary:hover {
+    background: rgba(220, 20, 60, 0.15);
+    border-color: #ff0000;
+    color: #fff;
+    transform: translateY(-2px);
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .main {
-    padding: 48px 24px;
+    padding: 2rem;
   }
 
   .intro {
-    gap: 16px;
+    gap: 1.5rem;
   }
 
   .intro h1 {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -1.92px;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  .intro p {
+    font-size: 0.95rem;
+  }
+
+  .ctas {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .ctas a {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .intro h1 {
+    font-size: 1.75rem;
+  }
+
+  .intro p {
+    font-size: 0.85rem;
+  }
+
+  .ctas a {
+    height: 40px;
+    padding: 0 16px;
+    font-size: 0.8rem;
   }
 }
 

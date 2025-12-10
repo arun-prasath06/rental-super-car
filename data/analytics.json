@@ -849,11 +849,41 @@
       "timestamp": "2025-12-10T04:41:30.910Z",
       "page": "/admin/dashboard",
       "referrer": ""
+    },
+    {
+      "timestamp": "2025-12-10T04:46:25.515Z",
+      "page": "/admin/dashboard",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-12-10T04:47:11.032Z",
+      "page": "/admin/dashboard",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-12-10T04:49:41.386Z",
+      "page": "/admin/dashboard",
+      "referrer": "http://localhost:3000/admin/dashboard"
+    },
+    {
+      "timestamp": "2025-12-10T04:49:54.396Z",
+      "page": "/admin/dashboard",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-12-10T04:49:54.844Z",
+      "page": "/admin/dashboard",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-12-10T04:51:22.177Z",
+      "page": "/admin/dashboard",
+      "referrer": ""
     }
   ],
   "stats": {
-    "totalVisits": 170,
+    "totalVisits": 176,
     "uniqueVisitors": 0,
-    "lastUpdated": "2025-12-10T04:41:30.958Z"
+    "lastUpdated": "2025-12-10T04:51:22.237Z"
   }
 }

@@ -20,11 +20,19 @@ export default function AdminDashboard() {
         fetchAllStats();
 
         // Update time every second
-        const interval = setInterval(() => {
+        const timeInterval = setInterval(() => {
             setCurrentTime(formatAirportTimestamp());
         }, 1000);
 
-        return () => clearInterval(interval);
+        // Auto-refresh login data every 5 seconds
+        const loginRefreshInterval = setInterval(() => {
+            fetchLoginData();
+        }, 5000);
+
+        return () => {
+            clearInterval(timeInterval);
+            clearInterval(loginRefreshInterval);
+        };
     }, []);
 
     const fetchAllStats = async () => {
@@ -56,6 +64,19 @@ export default function AdminDashboard() {
         } catch (error) {
             console.error('Error fetching stats:', error);
             setLoading(false);
+        }
+    };
+
+    const fetchLoginData = async () => {
+        try {
+            const loginRes = await fetch('/api/record-login', { cache: 'no-store' });
+            const logins = await loginRes.json();
+            if (Array.isArray(logins)) {
+                setUserLogins(logins);
+                calculateLoginStats(logins);
+            }
+        } catch (e) {
+            console.error("Login fetch error", e);
         }
     };
 
