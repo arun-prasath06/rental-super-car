@@ -1,11 +1,6 @@
 import './globals.css'
 import VisitorTracker from './components/VisitorTracker'
 
-
-// Optimized font loading (simulated for standard Next.js without google fonts setup if offline, but we can try to use a google font url in head if needed, or just standard sans-serif fallback)
-// For best results, we will modify this to use next/font/google if the user allows, but standard CSS import is easier for "teaching" context without complex setups.
-// We used standard font-family 'Outfit' in CSS. We need to import it.
-
 export const metadata = {
   title: 'Rental Super Car & Bikes',
   description: 'Premium Luxury Rentals and Modifications',

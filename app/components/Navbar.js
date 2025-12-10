@@ -9,21 +9,17 @@ export default function Navbar() {
     const router = useRouter();
 
     useEffect(() => {
-        // Check for session on mount and when storage changes (optional, but mount is key)
         const checkSession = () => {
             const stored = localStorage.getItem('user_session');
             if (stored) setUser(JSON.parse(stored));
         };
         checkSession();
-
-        // Listen for login events across tabs/components
         window.addEventListener('storage', checkSession);
         return () => window.removeEventListener('storage', checkSession);
     }, []);
 
     const handleLogout = async () => {
         if (user) {
-            // Record Logout
             try {
                 await fetch('/api/record-login', {
                     method: 'POST',
@@ -42,8 +38,7 @@ export default function Navbar() {
 
         localStorage.removeItem('user_session');
         setUser(null);
-        router.push('/'); // Go home
-        // Force refresh to update UI if needed, though state change handles this component
+        router.push('/');
         router.refresh();
     };
 

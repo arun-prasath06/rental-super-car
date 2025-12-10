@@ -1,26 +1,17 @@
 'use client';
-import { X } from 'lucide-react';
-import { useEffect, useState } from 'react';
-import { createPortal } from 'react-dom';
 
-export default function LoginModal({ isOpen, onClose, onLogin }) {
-    const [mounted, setMounted] = useState(false);
+import { useState } from 'react';
+
+export default function LoginModal({ onClose, onLogin }) {
     const [isLoading, setIsLoading] = useState(false);
-
-    useEffect(() => {
-        setMounted(true);
-        return () => setMounted(false);
-    }, []);
-
-    if (!isOpen || !mounted) return null;
 
     const handleGoogleLogin = async () => {
         setIsLoading(true);
 
-        // 1. Simulate Google Login Delay
+        // Simulate loading for UX
         await new Promise(resolve => setTimeout(resolve, 800));
 
-        // 2. Mock User Data
+        // Mock user data
         const mockUser = {
             name: 'Arun Prasath',
             email: 'arun.prasath@gmail.com',
@@ -28,45 +19,60 @@ export default function LoginModal({ isOpen, onClose, onLogin }) {
             verified: true
         };
 
-        // 3. Persist to Backend for Admin Dashboard
+        // Store in localStorage
+        localStorage.setItem('user_session', JSON.stringify(mockUser));
+
+        // Log the login event
         try {
             await fetch('/api/record-login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ ...mockUser, type: 'LOGIN' })
+                body: JSON.stringify({
+                    name: mockUser.name,
+                    email: mockUser.email,
+                    timestamp: mockUser.timestamp,
+                    type: 'LOGIN'
+                })
             });
-        } catch (err) {
-            console.error("Failed to log login event", err);
+        } catch (error) {
+            console.error('Failed to log login:', error);
         }
 
-        localStorage.setItem('user_session', JSON.stringify(mockUser));
         setIsLoading(false);
-        onLogin(mockUser);
+
+        // Trigger the onLogin callback
+        if (onLogin) onLogin(mockUser);
+
+        // Close modal
+        onClose();
+
+        // Refresh to update navbar
+        window.location.reload();
     };
 
-    const modalContent = (
+    return (
         <div style={{
             position: 'fixed',
-            inset: 0,
-            backgroundColor: 'rgba(0,0,0,0.85)',
-            backdropFilter: 'blur(5px)',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: 'rgba(0,0,0,0.8)',
             display: 'flex',
-            justifyContent: 'center',
             alignItems: 'center',
-            zIndex: 99999,
-            animation: 'fadeIn 0.2s ease-out'
+            justifyContent: 'center',
+            zIndex: 10000
         }}>
             <div style={{
                 background: '#fff',
-                padding: '2.5rem',
-                borderRadius: '16px',
-                width: '100%',
-                maxWidth: '420px',
-                position: 'relative',
-                textAlign: 'center',
-                boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
-                animation: 'slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1)'
+                borderRadius: '12px',
+                padding: '2rem',
+                maxWidth: '400px',
+                width: '90%',
+                boxShadow: '0 8px 32px rgba(0,0,0,0.3)',
+                position: 'relative'
             }}>
+                {/* Close Button */}
                 <button
                     onClick={onClose}
                     style={{
@@ -75,82 +81,100 @@ export default function LoginModal({ isOpen, onClose, onLogin }) {
                         right: '1rem',
                         background: 'transparent',
                         border: 'none',
-                        color: '#666',
+                        fontSize: '1.5rem',
                         cursor: 'pointer',
-                        padding: '0.5rem',
-                        borderRadius: '50%',
-                        transition: 'background 0.2s'
+                        color: '#666'
                     }}
-                    onMouseOver={(e) => e.currentTarget.style.background = '#f1f1f1'}
-                    onMouseOut={(e) => e.currentTarget.style.background = 'transparent'}
                 >
-                    <X size={20} />
+                    ×
                 </button>
 
-                <div style={{ marginBottom: '1.5rem' }}>
-                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" style={{ height: '36px' }} />
+                {/* Google Logo */}
+                <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
+                    <svg width="48" height="48" viewBox="0 0 48 48">
+                        <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" />
+                        <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z" />
+                        <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z" />
+                        <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" />
+                        <path fill="none" d="M0 0h48v48H0z" />
+                    </svg>
                 </div>
 
-                <h2 style={{ color: '#202124', fontSize: '1.5rem', fontWeight: '400', marginBottom: '0.5rem' }}>Sign in</h2>
-                <p style={{ color: '#5f6368', fontSize: '1rem', marginBottom: '2.5rem' }}>to continue to Rental Super Car</p>
+                {/* Title */}
+                <h2 style={{
+                    fontSize: '1.5rem',
+                    textAlign: 'center',
+                    color: '#202124',
+                    marginBottom: '0.5rem',
+                    fontWeight: '500'
+                }}>
+                    Sign in
+                </h2>
 
+                <p style={{
+                    textAlign: 'center',
+                    color: '#5f6368',
+                    fontSize: '0.9rem',
+                    marginBottom: '2rem'
+                }}>
+                    to continue to Piston Rental-X Pro
+                </p>
+
+                {/* Google Sign-In Button */}
                 <button
                     onClick={handleGoogleLogin}
                     disabled={isLoading}
                     style={{
+                        width: '100%',
+                        padding: '0.75rem',
+                        border: '1px solid #dadce0',
+                        borderRadius: '4px',
+                        background: '#fff',
+                        color: '#3c4043',
+                        fontSize: '0.95rem',
+                        fontWeight: '500',
+                        cursor: isLoading ? 'not-allowed' : 'pointer',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        gap: '12px',
-                        width: '100%',
-                        padding: '10px 12px',
-                        backgroundColor: '#fff',
-                        color: '#3c4043',
-                        border: '1px solid #dadce0',
-                        borderRadius: '4px',
-                        fontSize: '14px',
-                        fontWeight: '500',
-                        cursor: isLoading ? 'wait' : 'pointer',
-                        transition: 'background 0.2s, box-shadow 0.2s',
-                        fontFamily: 'Roboto, sans-serif'
+                        gap: '0.75rem',
+                        transition: 'all 0.2s',
+                        opacity: isLoading ? 0.6 : 1
                     }}
                     onMouseOver={(e) => {
                         if (!isLoading) {
-                            e.currentTarget.style.background = '#f7fafe';
-                            e.currentTarget.style.borderColor = '#d2e3fc';
+                            e.target.style.background = '#f8f9fa';
+                            e.target.style.borderColor = '#c6c6c6';
                         }
                     }}
                     onMouseOut={(e) => {
-                        if (!isLoading) {
-                            e.currentTarget.style.background = '#fff';
-                            e.currentTarget.style.borderColor = '#dadce0';
-                        }
+                        e.target.style.background = '#fff';
+                        e.target.style.borderColor = '#dadce0';
                     }}
                 >
-                    {isLoading ? (
-                        <div style={{ width: '20px', height: '20px', border: '2px solid #ddd', borderTopColor: '#4285f4', borderRadius: '50%', animation: 'spin 1s linear infinite' }} />
-                    ) : (
-                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="" style={{ width: '18px', height: '18px' }} />
-                    )}
-                    <span>{isLoading ? 'Signing in...' : 'Sign in with Google'}</span>
+                    <svg width="18" height="18" viewBox="0 0 48 48">
+                        <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" />
+                        <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z" />
+                        <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z" />
+                        <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" />
+                    </svg>
+                    {isLoading ? 'Signing in...' : 'Sign in with Google'}
                 </button>
 
-                <div style={{ marginTop: '2.5rem', textAlign: 'left', fontSize: '0.85rem', color: '#5f6368' }}>
-                    Not your computer? Use Guest mode to sign in privately. <br />
-                    <a href="#" style={{ color: '#1a73e8', textDecoration: 'none', fontWeight: '500' }}>Learn more</a>
-                </div>
+                {/* Demo Notice */}
+                <p style={{
+                    marginTop: '1.5rem',
+                    fontSize: '0.75rem',
+                    color: '#5f6368',
+                    textAlign: 'center',
+                    lineHeight: '1.5',
+                    background: '#f1f3f4',
+                    padding: '0.5rem',
+                    borderRadius: '4px'
+                }}>
+                    🎭 Demo Mode: Click to simulate Google login
+                </p>
             </div>
-            <style jsx global>{`
-                @keyframes slideUp {
-                    from { transform: translateY(20px); opacity: 0; }
-                    to { transform: translateY(0); opacity: 1; }
-                }
-                @keyframes spin {
-                    to { transform: rotate(360deg); }
-                }
-            `}</style>
         </div>
     );
-
-    return createPortal(modalContent, document.body);
 }
