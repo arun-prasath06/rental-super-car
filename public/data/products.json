@@ -1,0 +1,1543 @@
+[
+    {
+        "id": "car-gtr-mod",
+        "name": "Nissan GTR R35 (Modified)",
+        "type": "car",
+        "price": 9000,
+        "image": "https://i.pinimg.com/736x/f2/67/f4/f267f496e85ae31702acdd25de194b0b.jpg",
+        "category": "Super Car",
+        "description": "Godzilla. Fully modified with widebody kit, upgraded turbos, and 800+ HP.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "652 Nm",
+            "hp": "800",
+            "fuelType": "Petrol",
+            "engineType": "3.8L V6 Twin-Turbo",
+            "mileage": "8 km/l",
+            "topSpeed": "330 km/h",
+            "acceleration": "2.5"
+        }
+    },
+    {
+        "id": "car-lambo-revuelto",
+        "name": "Lamborghini Revuelto",
+        "type": "car",
+        "price": 2500,
+        "image": "https://i.pinimg.com/1200x/72/d2/69/72d269b019de72a5fc51b511b4f8cc92.jpg",
+        "category": "Super Car",
+        "description": "The first HPEV (High Performance Electrified Vehicle) hybrid super sports car.",
+        "specs": {
+            "modelYear": "2024",
+            "torque": "807 Nm",
+            "hp": "1015",
+            "fuelType": "Petrol Hybrid",
+            "engineType": "6.5L V12 + Electric",
+            "mileage": "7 km/l",
+            "topSpeed": "350 km/h",
+            "acceleration": "2.5"
+        }
+    },
+    {
+        "id": "car-lambo-huracan-evo",
+        "name": "Lamborghini Huracán EVO",
+        "type": "car",
+        "price": 1800,
+        "image": "https://i.pinimg.com/736x/2c/0e/25/2c0e258f55c78978538b3cff1b9291a9.jpg",
+        "category": "Super Car",
+        "description": "The evolution of the V10. Pure driving emotion.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "600 Nm",
+            "hp": "640",
+            "fuelType": "Petrol",
+            "engineType": "5.2L V10",
+            "mileage": "9 km/l",
+            "topSpeed": "325 km/h",
+            "acceleration": "2.9"
+        }
+    },
+    {
+        "id": "car-lambo-huracan-tecnica",
+        "name": "Lamborghini Huracán Tecnica",
+        "type": "car",
+        "price": 1900,
+        "image": "https://i.pinimg.com/1200x/b2/c2/d0/b2c2d00cf576e5c34b3f1572bd9ca22a.jpg",
+        "category": "Super Car",
+        "description": "Designed for the track, unleashed on the road.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "565 Nm",
+            "hp": "640",
+            "fuelType": "Petrol",
+            "engineType": "5.2L V10",
+            "mileage": "9 km/l",
+            "topSpeed": "325 km/h",
+            "acceleration": "3.2"
+        }
+    },
+    {
+        "id": "car-lambo-urus-perf",
+        "name": "Lamborghini Urus Performante(Yellow)",
+        "type": "car",
+        "price": 1600,
+        "image": "https://i.pinimg.com/1200x/a4/b2/e7/a4b2e7343a8dbaee68e9e611b4016a49.jpg",
+        "category": "Super SUV",
+        "description": "The Super SUV that raises the bar for performance and versatility.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "850 Nm",
+            "hp": "666",
+            "fuelType": "Petrol",
+            "engineType": "4.0L V8 Twin-Turbo",
+            "mileage": "8 km/l",
+            "topSpeed": "306 km/h",
+            "acceleration": "3.3"
+        }
+    },
+    {
+        "id": "car-ferrari-296",
+        "name": "Ferrari 296 GTB(Red)",
+        "type": "car",
+        "price": 1700,
+        "image": "https://i.pinimg.com/1200x/74/e3/55/74e3558735e9edf8da4d3d13073e2822.jpg",
+        "category": "Super Car",
+        "description": "Defining fun to drive. V6 hybrid architecture.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "740 Nm",
+            "hp": "830",
+            "fuelType": "Petrol Hybrid",
+            "engineType": "3.0L V6 Turbo + Electric",
+            "mileage": "10 km/l",
+            "topSpeed": "330 km/h",
+            "acceleration": "2.9"
+        }
+    },
+    {
+        "id": "car-ferrari-roma",
+        "name": "Ferrari Roma (Red)",
+        "type": "car",
+        "price": 1500,
+        "image": "https://i.pinimg.com/1200x/a8/11/22/a811226bc6a5d5a967b1fbfee594bf01.jpg",
+        "category": "Super Car",
+        "description": "La Nuova Dolce Vita. Timeless elegance and performance.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "760 Nm",
+            "hp": "620",
+            "fuelType": "Petrol",
+            "engineType": "3.9L V8 Twin-Turbo",
+            "mileage": "9 km/l",
+            "topSpeed": "320 km/h",
+            "acceleration": "3.4"
+        }
+    },
+    {
+        "id": "car-ferrari-f8",
+        "name": "Ferrari F8 Tributo(Red)",
+        "type": "car",
+        "price": 20000,
+        "image": "https://i.pinimg.com/736x/7f/7a/c6/7f7ac67187c2dfbe1ea94906c7b9020a.jpg",
+        "category": "Super Car",
+        "description": "A tribute to the most powerful V8 in Ferrari history.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "770 Nm",
+            "hp": "720",
+            "fuelType": "Petrol",
+            "engineType": "3.9L V8 Twin-Turbo",
+            "mileage": "9 km/l",
+            "topSpeed": "340 km/h",
+            "acceleration": "2.9"
+        }
+    },
+    {
+        "id": "car-sf90",
+        "name": "Ferrari SF90 Stradale",
+        "type": "car",
+        "price": 35000,
+        "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?q=80&w=2070&auto=format&fit=crop",
+        "category": "Super Car",
+        "description": "1000HP hybrid hypercar. Experience the future of speed with absolute luxury.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "800 Nm",
+            "hp": "1000",
+            "fuelType": "Petrol Hybrid",
+            "engineType": "4.0L V8 Twin-Turbo + Electric",
+            "mileage": "8 km/l",
+            "topSpeed": "340 km/h",
+            "acceleration": "2.5"
+        }
+    },
+    {
+        "id": "car-mcl-720s",
+        "name": "McLaren 720S",
+        "type": "car",
+        "price": 33000,
+        "image": "https://i.pinimg.com/736x/f4/04/45/f404452a7222720599b0efcc37bf7fe5.jpg",
+        "category": "Super Car",
+        "description": "Lighter, stronger, faster. A predator on the road.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "770 Nm",
+            "hp": "720",
+            "fuelType": "Petrol",
+            "engineType": "4.0L V8 Twin-Turbo",
+            "mileage": "9 km/l",
+            "topSpeed": "341 km/h",
+            "acceleration": "2.8"
+        }
+    },
+    {
+        "id": "car-mcl-750s",
+        "name": "McLaren 750S",
+        "type": "car",
+        "price": 35000,
+        "image": "https://i.pinimg.com/1200x/b4/5a/fe/b45afe703bf4488295077e02207494d8.jpg",
+        "category": "Super Car",
+        "description": "The production series McLaren that redefines the benchmark.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "800 Nm",
+            "hp": "750",
+            "fuelType": "Petrol",
+            "engineType": "4.0L V8 Twin-Turbo",
+            "mileage": "8 km/l",
+            "topSpeed": "332 km/h",
+            "acceleration": "2.7"
+        }
+    },
+    {
+        "id": "car-mcl-gt",
+        "name": "McLaren GT",
+        "type": "car",
+        "price": 1400,
+        "image": "https://images.unsplash.com/photo-1616766480743-392c6860d5b6?q=80&w=2070",
+        "category": "Super Car",
+        "description": "A Grand Tourer that rewrites the rules of modern driving.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "770 Nm",
+            "hp": "620",
+            "fuelType": "Petrol",
+            "engineType": "4.0L V8 Twin-Turbo",
+            "mileage": "10 km/l",
+            "topSpeed": "326 km/h",
+            "acceleration": "3.2"
+        }
+    },
+    {
+        "id": "car-mcl-artura",
+        "name": "McLaren Artura",
+        "type": "car",
+        "price": 21000,
+        "image": "https://images.unsplash.com/photo-1662582869963-c71c4c9e887f?q=80&w=2070",
+        "category": "Super Car",
+        "description": "The full force of McLaren. High-Performance Hybrid.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "720 Nm",
+            "hp": "680",
+            "fuelType": "Petrol Hybrid",
+            "engineType": "3.0L V6 Twin-Turbo + Electric",
+            "mileage": "11 km/l",
+            "topSpeed": "330 km/h",
+            "acceleration": "3.0"
+        }
+    },
+    {
+        "id": "car-por-turbos",
+        "name": "Porsche 911 Turbo S",
+        "type": "car",
+        "price": 20000,
+        "image": "https://images.unsplash.com/photo-1503376763036-066120622c74?q=80&w=2070",
+        "category": "Super Car",
+        "description": "The benchmark for high-performance sports cars. 0-60 in 2.6s.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "800 Nm",
+            "hp": "650",
+            "fuelType": "Petrol",
+            "engineType": "3.8L Flat-6 Twin-Turbo",
+            "mileage": "10 km/l",
+            "topSpeed": "330 km/h",
+            "acceleration": "2.6"
+        }
+    },
+    {
+        "id": "car-por-gt3",
+        "name": "Porsche 911 GT3",
+        "type": "car",
+        "price": 25000,
+        "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=2070",
+        "category": "Super Car",
+        "description": "Motorsport technology for the road. High-revving naturally aspirated glory.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "470 Nm",
+            "hp": "510",
+            "fuelType": "Petrol",
+            "engineType": "4.0L Flat-6",
+            "mileage": "11 km/l",
+            "topSpeed": "320 km/h",
+            "acceleration": "3.4"
+        }
+    },
+    {
+        "id": "car-por-gt3rs",
+        "name": "Porsche 911 GT3 RS",
+        "type": "car",
+        "price": 21000,
+        "image": "https://images.unsplash.com/photo-1667503934336-6467389658e8?q=80&w=2070",
+        "category": "Super Car",
+        "description": "Extreme aerodynamic design. Born for the racetrack.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "465 Nm",
+            "hp": "525",
+            "fuelType": "Petrol",
+            "engineType": "4.0L Flat-6",
+            "mileage": "10 km/l",
+            "topSpeed": "296 km/h",
+            "acceleration": "3.2"
+        }
+    },
+    {
+        "id": "car-por-gt2rs",
+        "name": "Porsche 911 GT2 RS",
+        "type": "car",
+        "price": 28000,
+        "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=2070",
+        "category": "Super Car",
+        "description": "The most powerful 911 ever built. Rare and relentless.",
+        "specs": {
+            "modelYear": "2018",
+            "torque": "750 Nm",
+            "hp": "700",
+            "fuelType": "Petrol",
+            "engineType": "3.8L Flat-6 Twin-Turbo",
+            "mileage": "9 km/l",
+            "topSpeed": "340 km/h",
+            "acceleration": "2.7"
+        }
+    },
+    {
+        "id": "car-ast-vantage",
+        "name": "Aston Martin Vantage",
+        "type": "car",
+        "price": 27000,
+        "image": "https://images.unsplash.com/photo-1605515298946-d062f2e9da53?q=80&w=2070",
+        "category": "Super Car",
+        "description": "Raw and instinctive. A sports car with a predator's nature.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "685 Nm",
+            "hp": "510",
+            "fuelType": "Petrol",
+            "engineType": "4.0L V8 Twin-Turbo",
+            "mileage": "9 km/l",
+            "topSpeed": "314 km/h",
+            "acceleration": "3.5"
+        }
+    },
+    {
+        "id": "car-ast-db12",
+        "name": "Aston Martin DB12",
+        "type": "car",
+        "price": 26000,
+        "image": "https://images.unsplash.com/photo-1698298715424-df3c9451950d?q=80&w=2070",
+        "category": "Super Car",
+        "description": "The world's first Super Tourer. Luxury meets immense power.",
+        "specs": {
+            "modelYear": "2024",
+            "torque": "800 Nm",
+            "hp": "680",
+            "fuelType": "Petrol",
+            "engineType": "4.0L V8 Twin-Turbo",
+            "mileage": "9 km/l",
+            "topSpeed": "325 km/h",
+            "acceleration": "3.5"
+        }
+    },
+    {
+        "id": "car-ast-dbs",
+        "name": "Aston Martin DBS Superleggera",
+        "type": "car",
+        "price": 20000,
+        "image": "https://images.unsplash.com/photo-1627454819213-d7d559599525?q=80&w=2070",
+        "category": "Super Car",
+        "description": "The ultimate production Aston Martin. V12 Twin-Turbo.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "900 Nm",
+            "hp": "725",
+            "fuelType": "Petrol",
+            "engineType": "5.2L V12 Twin-Turbo",
+            "mileage": "8 km/l",
+            "topSpeed": "340 km/h",
+            "acceleration": "3.4"
+        }
+    },
+    {
+        "id": "car-mas-mc20",
+        "name": "Maserati MC20",
+        "type": "car",
+        "price": 21000,
+        "image": "https://images.unsplash.com/photo-1626668893632-6f3a4466d22f?q=80&w=2072",
+        "category": "Super Car",
+        "description": "Maserati's new era of Super Sports Car. Nettuno V6 engine.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "730 Nm",
+            "hp": "630",
+            "fuelType": "Petrol",
+            "engineType": "3.0L V6 Twin-Turbo",
+            "mileage": "10 km/l",
+            "topSpeed": "325 km/h",
+            "acceleration": "2.9"
+        }
+    },
+    {
+        "id": "car-mas-gt",
+        "name": "Maserati GranTurismo",
+        "type": "car",
+        "price": 27000,
+        "image": "https://images.unsplash.com/photo-1600705722908-bab1e6057773?q=80&w=2070",
+        "category": "Super Car",
+        "description": "The icon returns. Style, comfort, and performance.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "620 Nm",
+            "hp": "490",
+            "fuelType": "Petrol",
+            "engineType": "3.0L V6 Twin-Turbo",
+            "mileage": "10 km/l",
+            "topSpeed": "302 km/h",
+            "acceleration": "3.9"
+        }
+    },
+    {
+        "id": "car-audi-r8",
+        "name": "Audi R8 V10 Plus",
+        "type": "car",
+        "price": 23500,
+        "image": "https://images.unsplash.com/photo-1563695279-d29837901267?q=80&w=2070",
+        "category": "Super Car",
+        "description": "A guaranteed supercar legend. High-revving V10 engine.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "580 Nm",
+            "hp": "610",
+            "fuelType": "Petrol",
+            "engineType": "5.2L V10",
+            "mileage": "9 km/l",
+            "topSpeed": "330 km/h",
+            "acceleration": "3.1"
+        }
+    },
+    {
+        "id": "car-amg-gtr",
+        "name": "Mercedes-AMG GT R",
+        "type": "car",
+        "price": 21500,
+        "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2070",
+        "category": "Super Car",
+        "description": "Beast of the Green Hell. Street legal racer.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "700 Nm",
+            "hp": "585",
+            "fuelType": "Petrol",
+            "engineType": "4.0L V8 Twin-Turbo",
+            "mileage": "9 km/l",
+            "topSpeed": "318 km/h",
+            "acceleration": "3.6"
+        }
+    },
+    {
+        "id": "car-amg-63se",
+        "name": "AMG GT 63 S E Performance",
+        "type": "car",
+        "price": 21650,
+        "image": "https://images.unsplash.com/photo-1678735281488-824040da2709?q=80&w=2070",
+        "category": "Super Car",
+        "description": "F1 technology for the road. The most powerful AMG ever.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "1470 Nm",
+            "hp": "843",
+            "fuelType": "Petrol Hybrid",
+            "engineType": "4.0L V8 Twin-Turbo + Electric",
+            "mileage": "10 km/l",
+            "topSpeed": "316 km/h",
+            "acceleration": "2.9"
+        }
+    },
+    {
+        "id": "car-amg-black",
+        "name": "AMG GT Black Series",
+        "type": "car",
+        "price": 30000,
+        "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=2070",
+        "category": "Super Car",
+        "description": "The ultimate track weapon. Limited, rare, extreme.",
+        "specs": {
+            "modelYear": "2021",
+            "torque": "800 Nm",
+            "hp": "730",
+            "fuelType": "Petrol",
+            "engineType": "4.0L V8 Twin-Turbo",
+            "mileage": "7 km/l",
+            "topSpeed": "325 km/h",
+            "acceleration": "3.1"
+        }
+    },
+    {
+        "id": "car-supra",
+        "name": "Toyota Supra MK5",
+        "type": "car",
+        "price": 28000,
+        "image": "https://images.unsplash.com/photo-1629897284617-48f5223c6837?q=80&w=2070",
+        "category": "JDM Exotic",
+        "description": "The legend returns. Pure driving pleasure.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "500 Nm",
+            "hp": "387",
+            "fuelType": "Petrol",
+            "engineType": "3.0L Inline-6 Turbo",
+            "mileage": "12 km/l",
+            "topSpeed": "250 km/h",
+            "acceleration": "4.1"
+        }
+    },
+    {
+        "id": "car-001",
+        "name": "Lamborghini Aventador SVJ",
+        "type": "car",
+        "price": 29000,
+        "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?q=80&w=2070&auto=format&fit=crop",
+        "category": "Super Car",
+        "description": "The pinnacle of Italian engineering. V12 engine, aggressive aerodynamics, and pure raw power.",
+        "specs": {
+            "modelYear": "2022",
+            "torque": "720 Nm",
+            "hp": "770",
+            "fuelType": "Petrol",
+            "engineType": "6.5L V12",
+            "mileage": "7 km/l",
+            "topSpeed": "350 km/h",
+            "acceleration": "2.8"
+        }
+    },
+    {
+        "id": "bike-001",
+        "name": "Ducati Panigale V4 R",
+        "type": "bike",
+        "price": 4000,
+        "image": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?q=80&w=2070&auto=format&fit=crop",
+        "category": "Super Bike",
+        "description": "Born for the track. The closest thing to MotoGP you can ride on the street.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "118 Nm",
+            "hp": "221",
+            "fuelType": "Petrol",
+            "engineType": "998cc V4",
+            "mileage": "16 km/l",
+            "topSpeed": "300 km/h",
+            "acceleration": "3.0"
+        }
+    },
+    {
+        "id": "bike-002",
+        "name": "Kawasaki Ninja H2R",
+        "type": "bike",
+        "price": 4500,
+        "image": "https://i.pinimg.com/1200x/c8/df/86/c8df862ab23a95c689f60b93c45f3d99.jpg",
+        "category": "Super Bike",
+        "description": "Supercharged perfection. The fastest production motorcycle ever made.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "165 Nm",
+            "hp": "310",
+            "fuelType": "Petrol",
+            "engineType": "998cc Inline-4 Supercharged",
+            "mileage": "14 km/l",
+            "topSpeed": "400 km/h",
+            "acceleration": "2.6"
+        }
+    },
+    {
+        "id": "bike-duc-v4",
+        "name": "Ducati Panigale V4",
+        "type": "bike",
+        "price": 3500,
+        "image": "https://images.unsplash.com/photo-1616421935518-e377f0c13654?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "The Desmosedici Stradale engine. A symphony of italian performance.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "124 Nm",
+            "hp": "214",
+            "fuelType": "Petrol",
+            "engineType": "1103cc V4",
+            "mileage": "17 km/l",
+            "topSpeed": "299 km/h",
+            "acceleration": "3.1"
+        }
+    },
+    {
+        "id": "bike-duc-v4s",
+        "name": "Ducati Panigale V4 S",
+        "type": "bike",
+        "price": 3800,
+        "image": "https://images.unsplash.com/photo-1623126781223-9c8aa9d40733?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "Enhanced with Öhlins suspension and Marchesini wheels.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "124 Nm",
+            "hp": "214",
+            "fuelType": "Petrol",
+            "engineType": "1103cc V4",
+            "mileage": "17 km/l",
+            "topSpeed": "299 km/h",
+            "acceleration": "3.1"
+        }
+    },
+    {
+        "id": "bike-duc-sf",
+        "name": "Ducati Streetfighter V4",
+        "type": "bike",
+        "price": 3200,
+        "image": "https://i.pinimg.com/736x/58/57/00/5857005e8c94b24dd2eff1d13acd34cb.jpg",
+        "category": "Super Bike",
+        "description": "The Panigale V4 stripped of its fairings. Pure naked aggression.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "123 Nm",
+            "hp": "208",
+            "fuelType": "Petrol",
+            "engineType": "1103cc V4",
+            "mileage": "16 km/l",
+            "topSpeed": "290 km/h",
+            "acceleration": "3.2"
+        }
+    },
+    {
+        "id": "bike-duc-sfs",
+        "name": "Ducati Streetfighter V4 S",
+        "type": "bike",
+        "price": 3700,
+        "image": "https://images.unsplash.com/photo-1595166661129-9ce7d7162590?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "The ultimate naked bike formula. V4 power, upright ergonomics.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "123 Nm",
+            "hp": "208",
+            "fuelType": "Petrol",
+            "engineType": "1103cc V4",
+            "mileage": "16 km/l",
+            "topSpeed": "290 km/h",
+            "acceleration": "3.2"
+        }
+    },
+    {
+        "id": "bike-duc-ss",
+        "name": "Ducati SuperSport 950",
+        "type": "bike",
+        "price": 2800,
+        "image": "https://images.unsplash.com/photo-1595232924613-333e147dfb24?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "Sport-touring excellence with Ducati style and performance.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "98 Nm",
+            "hp": "110",
+            "fuelType": "Petrol",
+            "engineType": "937cc L-Twin",
+            "mileage": "20 km/l",
+            "topSpeed": "240 km/h",
+            "acceleration": "3.8"
+        }
+    },
+    {
+        "id": "bike-duc-multi",
+        "name": "Ducati Multistrada V4",
+        "type": "bike",
+        "price": 3000,
+        "image": "https://images.unsplash.com/photo-1662973161394-0cf7f4aa4e21?q=80&w=2070",
+        "category": "Super Tourer",
+        "description": "Rule all roads. The ultimate dual-purpose superbike.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "125 Nm",
+            "hp": "170",
+            "fuelType": "Petrol",
+            "engineType": "1158cc V4",
+            "mileage": "18 km/l",
+            "topSpeed": "270 km/h",
+            "acceleration": "3.5"
+        }
+    },
+    {
+        "id": "bike-kaw-zx10",
+        "name": "Kawasaki Ninja ZX-10R",
+        "type": "bike",
+        "price": 3000,
+        "image": "https://images.unsplash.com/photo-1557551000-8b0106674681?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "Championship winning DNA. Built for the track.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "115 Nm",
+            "hp": "203",
+            "fuelType": "Petrol",
+            "engineType": "998cc Inline-4",
+            "mileage": "16 km/l",
+            "topSpeed": "299 km/h",
+            "acceleration": "3.0"
+        }
+    },
+    {
+        "id": "bike-kaw-h2",
+        "name": "Kawasaki Ninja H2",
+        "type": "bike",
+        "price": 4000,
+        "image": "https://images.unsplash.com/photo-1574349363842-bd002cdfb3df?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "Supercharged street legal hyperbike. Unmatched acceleration.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "141 Nm",
+            "hp": "231",
+            "fuelType": "Petrol",
+            "engineType": "998cc Inline-4 Supercharged",
+            "mileage": "15 km/l",
+            "topSpeed": "337 km/h",
+            "acceleration": "2.8"
+        }
+    },
+    {
+        "id": "bike-kaw-h2sx",
+        "name": "Kawasaki Ninja H2 SX",
+        "type": "bike",
+        "price": 3800,
+        "image": "https://images.unsplash.com/photo-1627964177303-7b49ef784d69?q=80&w=2070",
+        "category": "Super Tourer",
+        "description": "Supercharged touring. Cross continents at warp speed.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "141 Nm",
+            "hp": "200",
+            "fuelType": "Petrol",
+            "engineType": "998cc Inline-4 Supercharged",
+            "mileage": "16 km/l",
+            "topSpeed": "299 km/h",
+            "acceleration": "3.0"
+        }
+    },
+    {
+        "id": "bike-kaw-zx14",
+        "name": "Kawasaki Ninja ZX-14R",
+        "type": "bike",
+        "price": 2800,
+        "image": "https://images.unsplash.com/photo-1627142415174-8d45136d8d6f?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "The Quarter Mile King. Massive torque and presence.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "162 Nm",
+            "hp": "208",
+            "fuelType": "Petrol",
+            "engineType": "1441cc Inline-4",
+            "mileage": "14 km/l",
+            "topSpeed": "299 km/h",
+            "acceleration": "2.7"
+        }
+    },
+    {
+        "id": "bike-bmw-s1krr",
+        "name": "BMW S 1000 RR",
+        "type": "bike",
+        "price": 3200,
+        "image": "https://images.unsplash.com/photo-1563814880-99413693e210?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "German precision. ShiftCam technology for infinite power.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "113 Nm",
+            "hp": "207",
+            "fuelType": "Petrol",
+            "engineType": "999cc Inline-4",
+            "mileage": "17 km/l",
+            "topSpeed": "299 km/h",
+            "acceleration": "3.1"
+        }
+    },
+    {
+        "id": "bike-bmw-m1krr",
+        "name": "BMW M 1000 RR",
+        "type": "bike",
+        "price": 4500,
+        "image": "https://images.unsplash.com/photo-1594953610444-42adc82834c9?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "Born on the racetrack. Carbon wings and M-Power.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "113 Nm",
+            "hp": "212",
+            "fuelType": "Petrol",
+            "engineType": "999cc Inline-4",
+            "mileage": "16 km/l",
+            "topSpeed": "306 km/h",
+            "acceleration": "3.0"
+        }
+    },
+    {
+        "id": "bike-bmw-s1kr",
+        "name": "BMW S 1000 R",
+        "type": "bike",
+        "price": 3100,
+        "image": "https://images.unsplash.com/photo-1605330397509-328639209587?q=80&w=2070",
+        "category": "Super Naked",
+        "description": "Dynamic Roadster. Agile, precise, and extremely fast.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "113 Nm",
+            "hp": "165",
+            "fuelType": "Petrol",
+            "engineType": "999cc Inline-4",
+            "mileage": "18 km/l",
+            "topSpeed": "260 km/h",
+            "acceleration": "3.3"
+        }
+    },
+    {
+        "id": "bike-bmw-gs",
+        "name": "BMW R 1250 GS",
+        "type": "bike",
+        "price": 2800,
+        "image": "https://images.unsplash.com/photo-1681285227702-861c8a16db56?q=80&w=2070",
+        "category": "Adventure",
+        "description": "The Queen of Adventure. Go anywhere, do anything.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "143 Nm",
+            "hp": "136",
+            "fuelType": "Petrol",
+            "engineType": "1254cc Boxer Twin",
+            "mileage": "20 km/l",
+            "topSpeed": "200 km/h",
+            "acceleration": "3.5"
+        }
+    },
+    {
+        "id": "bike-suz-busa",
+        "name": "Suzuki Hayabusa",
+        "type": "bike",
+        "price": 3000,
+        "image": "https://images.unsplash.com/photo-1558980394-4c7c9299fe96?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "The Ultimate Sportbike. Legendary aerodynamics and speed.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "150 Nm",
+            "hp": "190",
+            "fuelType": "Petrol",
+            "engineType": "1340cc Inline-4",
+            "mileage": "15 km/l",
+            "topSpeed": "299 km/h",
+            "acceleration": "3.2"
+        }
+    },
+    {
+        "id": "bike-suz-gsx",
+        "name": "Suzuki GSX-R1000",
+        "type": "bike",
+        "price": 2800,
+        "image": "https://images.unsplash.com/photo-1568213816643-a0e2817dc957?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "Own the Racetrack. VVT engine technology.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "117 Nm",
+            "hp": "199",
+            "fuelType": "Petrol",
+            "engineType": "999cc Inline-4",
+            "mileage": "16 km/l",
+            "topSpeed": "299 km/h",
+            "acceleration": "3.1"
+        }
+    },
+    {
+        "id": "bike-yam-r1",
+        "name": "Yamaha YZF-R1",
+        "type": "bike",
+        "price": 3000,
+        "image": "https://images.unsplash.com/photo-1575425186775-b8de9a427e67?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "MotoGP derived Crossplane crankshaft technology. R-World.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "113 Nm",
+            "hp": "200",
+            "fuelType": "Petrol",
+            "engineType": "998cc Inline-4",
+            "mileage": "16 km/l",
+            "topSpeed": "299 km/h",
+            "acceleration": "3.0"
+        }
+    },
+    {
+        "id": "bike-yam-mt10",
+        "name": "Yamaha MT-10",
+        "type": "bike",
+        "price": 2900,
+        "image": "https://images.unsplash.com/photo-1625078500207-679901460391?q=80&w=2070",
+        "category": "Super Naked",
+        "description": "Master of Torque. The R1 engine in a street chassis.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "113 Nm",
+            "hp": "160",
+            "fuelType": "Petrol",
+            "engineType": "998cc Inline-4",
+            "mileage": "17 km/l",
+            "topSpeed": "260 km/h",
+            "acceleration": "3.2"
+        }
+    },
+    {
+        "id": "bike-apr-rsv4",
+        "name": "Aprilia RSV4 1100",
+        "type": "bike",
+        "price": 3500,
+        "image": "https://images.unsplash.com/photo-1589133465492-4cb6677f50a8?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "Be a Racer. The closest experience to a WSBK machine.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "122 Nm",
+            "hp": "217",
+            "fuelType": "Petrol",
+            "engineType": "1099cc V4",
+            "mileage": "15 km/l",
+            "topSpeed": "305 km/h",
+            "acceleration": "3.0"
+        }
+    },
+    {
+        "id": "bike-apr-tuono",
+        "name": "Aprilia Tuono V4",
+        "type": "bike",
+        "price": 3300,
+        "image": "https://images.unsplash.com/photo-1627963364956-6214156dc85d?q=80&w=2070",
+        "category": "Super Naked",
+        "description": "The Hypernaked benchmark. V4 thunder.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "122 Nm",
+            "hp": "175",
+            "fuelType": "Petrol",
+            "engineType": "1077cc V4",
+            "mileage": "16 km/l",
+            "topSpeed": "275 km/h",
+            "acceleration": "3.1"
+        }
+    },
+    {
+        "id": "bike-apr-rs660",
+        "name": "Aprilia RS 660",
+        "type": "bike",
+        "price": 2000,
+        "image": "https://images.unsplash.com/photo-1678735281987-0b1e32d0a0d2?q=80&w=2070",
+        "category": "Sport Bike",
+        "description": "A new era of sportiness. Lightweight and sophisticated.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "67 Nm",
+            "hp": "100",
+            "fuelType": "Petrol",
+            "engineType": "659cc Parallel Twin",
+            "mileage": "22 km/l",
+            "topSpeed": "220 km/h",
+            "acceleration": "3.5"
+        }
+    },
+    {
+        "id": "bike-hon-cbr",
+        "name": "Honda CBR1000RR-R",
+        "type": "bike",
+        "price": 3400,
+        "image": "https://images.unsplash.com/photo-1595232924613-333e147dfb24?q=80&w=2070",
+        "category": "Super Bike",
+        "description": "Born to Race. RC213V-S technology for the road.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "113 Nm",
+            "hp": "218",
+            "fuelType": "Petrol",
+            "engineType": "999cc Inline-4",
+            "mileage": "16 km/l",
+            "topSpeed": "299 km/h",
+            "acceleration": "3.0"
+        }
+    },
+    {
+        "id": "bike-hon-at",
+        "name": "Honda Africa Twin",
+        "type": "bike",
+        "price": 2500,
+        "image": "https://images.unsplash.com/photo-1678735281987-0b1e32d0a0d2?q=80&w=2070",
+        "category": "Adventure",
+        "description": "True Adventure. Go anywhere capability.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "105 Nm",
+            "hp": "102",
+            "fuelType": "Petrol",
+            "engineType": "1084cc Parallel Twin",
+            "mileage": "20 km/l",
+            "topSpeed": "190 km/h",
+            "acceleration": "3.8"
+        }
+    },
+    {
+        "id": "bike-tri-speed",
+        "name": "Triumph Speed Triple",
+        "type": "bike",
+        "price": 2900,
+        "image": "https://images.unsplash.com/photo-1568213816643-a0e2817dc957?q=80&w=2070",
+        "category": "Super Naked",
+        "description": "The original Hooligan. 1200cc Triple engine.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "125 Nm",
+            "hp": "180",
+            "fuelType": "Petrol",
+            "engineType": "1160cc Inline-3",
+            "mileage": "17 km/l",
+            "topSpeed": "260 km/h",
+            "acceleration": "3.2"
+        }
+    },
+    {
+        "id": "bike-hd-fat",
+        "name": "Harley-Davidson Fat Boy",
+        "type": "bike",
+        "price": 3000,
+        "image": "https://images.unsplash.com/photo-1558981285-6f0c94958bb6?q=80&w=2070",
+        "category": "Cruiser",
+        "description": "The original icon of custom style. Milwaukee-Eight 114.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "155 Nm",
+            "hp": "94",
+            "fuelType": "Petrol",
+            "engineType": "1868cc V-Twin",
+            "mileage": "18 km/l",
+            "topSpeed": "180 km/h",
+            "acceleration": "4.5"
+        }
+    },
+    {
+        "id": "bike-ind-ftr",
+        "name": "Indian FTR 1200",
+        "type": "bike",
+        "price": 2600,
+        "image": "https://images.unsplash.com/photo-1558980663-3685c1d67371?q=80&w=2070",
+        "category": "Cruiser",
+        "description": "Born on the dirt, built for the street. Flat tracker style.",
+        "specs": {
+            "modelYear": "2023",
+            "torque": "120 Nm",
+            "hp": "123",
+            "fuelType": "Petrol",
+            "engineType": "1203cc V-Twin",
+            "mileage": "17 km/l",
+            "topSpeed": "210 km/h",
+            "acceleration": "3.5"
+        }
+    },
+    {
+        "id": "part-001",
+        "name": "Akrapovič Evolution Exhaust",
+        "type": "part",
+        "price": 32000,
+        "image": "https://images.unsplash.com/photo-1567863786971-483a9e46a2d0?q=80&w=2070&auto=format&fit=crop",
+        "category": "Super Car Parts",
+        "subcategory": "Exhaust System",
+        "description": "Titanium exhaust system for weight reduction and enhanced sound."
+    },
+    {
+        "id": "part-brembo",
+        "name": "Brembo GT Braking System",
+        "type": "part",
+        "price": 4500,
+        "image": "https://images.unsplash.com/photo-1563720223523-491ff04651de?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Braking System",
+        "description": "6-piston monoblock calipers with cross-drilled rotors."
+    },
+    {
+        "id": "part-ohlins",
+        "name": "Öhlins TTX Suspension",
+        "type": "part",
+        "price": 3800,
+        "image": "https://images.unsplash.com/photo-1603584173870-7b23111e1f7d?auto=format&fit=crop&q=80&w=2071",
+        "category": "Super Car Parts",
+        "subcategory": "Suspension",
+        "description": "Advanced twin-tube technology for superior track performance."
+    },
+    {
+        "id": "part-pirelli",
+        "name": "Pirelli P Zero Trofeo R",
+        "type": "part",
+        "price": 2200,
+        "image": "https://images.unsplash.com/photo-1568213816643-a0e2817dc957?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Wheels & Tyres",
+        "description": "The ultimate street-legal track tire."
+    },
+    {
+        "id": "part-engine-block",
+        "name": "Engine Block",
+        "type": "part",
+        "price": 15000,
+        "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "High-performance engine block for superior strength and durability."
+    },
+    {
+        "id": "part-pistons",
+        "name": "Pistons",
+        "type": "part",
+        "price": 2500,
+        "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=2083",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "Forged high-compression pistons for increased power output."
+    },
+    {
+        "id": "part-piston-rings",
+        "name": "Piston Rings",
+        "type": "part",
+        "price": 800,
+        "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "Premium piston rings for optimal compression and efficiency."
+    },
+    {
+        "id": "part-connecting-rods",
+        "name": "Connecting Rods",
+        "type": "part",
+        "price": 3200,
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=2071",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "Lightweight titanium connecting rods for high RPM performance."
+    },
+    {
+        "id": "part-crankshaft",
+        "name": "Crankshaft",
+        "type": "part",
+        "price": 5500,
+        "image": "https://images.unsplash.com/photo-1606577924006-27d39b132ae2?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "Forged steel crankshaft with precision balancing."
+    },
+    {
+        "id": "part-camshaft",
+        "name": "Camshaft",
+        "type": "part",
+        "price": 2800,
+        "image": "https://images.unsplash.com/photo-1603584173870-7b23111e1f7d?auto=format&fit=crop&q=80&w=2071",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "Performance camshaft for enhanced valve timing and power."
+    },
+    {
+        "id": "part-cylinder-head",
+        "name": "Cylinder Head",
+        "type": "part",
+        "price": 6500,
+        "image": "https://images.unsplash.com/photo-1589133465492-4cb6677f50a8?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "CNC-machined cylinder head with optimized flow."
+    },
+    {
+        "id": "part-gaskets",
+        "name": "Gaskets",
+        "type": "part",
+        "price": 450,
+        "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "Complete gasket set for engine rebuild."
+    },
+    {
+        "id": "part-timing-chain",
+        "name": "Timing Chain / Belt",
+        "type": "part",
+        "price": 1200,
+        "image": "https://images.unsplash.com/photo-1625078500207-679901460391?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "High-strength timing chain for precise valve timing."
+    },
+    {
+        "id": "part-valves",
+        "name": "Valves",
+        "type": "part",
+        "price": 1800,
+        "image": "https://images.unsplash.com/photo-1605330397509-328639209587?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "Stainless steel intake and exhaust valves."
+    },
+    {
+        "id": "part-valve-springs",
+        "name": "Valve Springs",
+        "type": "part",
+        "price": 650,
+        "image": "https://images.unsplash.com/photo-1563814880-99413693e210?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "Performance dual-spring valve system."
+    },
+    {
+        "id": "part-oil-pump",
+        "name": "Oil Pump",
+        "type": "part",
+        "price": 1500,
+        "image": "https://images.unsplash.com/photo-1574349363842-bd002cdfb3df?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "High-flow oil pump for superior lubrication."
+    },
+    {
+        "id": "part-fuel-injectors",
+        "name": "Fuel Injectors",
+        "type": "part",
+        "price": 2400,
+        "image": "https://images.unsplash.com/photo-1627964177303-7b49ef784d69?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Fuel System",
+        "description": "High-flow fuel injectors for increased performance."
+    },
+    {
+        "id": "part-turbocharger",
+        "name": "Turbocharger / Supercharger",
+        "type": "part",
+        "price": 8500,
+        "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "High-performance turbocharger for maximum boost."
+    },
+    {
+        "id": "part-intercooler",
+        "name": "Intercooler",
+        "type": "part",
+        "price": 3200,
+        "image": "https://images.unsplash.com/photo-1558980663-3685c1d67371?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Cooling System",
+        "description": "Large front-mount intercooler for cooler intake temps."
+    },
+    {
+        "id": "part-air-intake",
+        "name": "Air Intake Manifold",
+        "type": "part",
+        "price": 1800,
+        "image": "https://images.unsplash.com/photo-1558981285-6f0c94958bb6?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "Optimized intake manifold for better airflow."
+    },
+    {
+        "id": "part-throttle-body",
+        "name": "Throttle Body",
+        "type": "part",
+        "price": 1400,
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=2071",
+        "category": "Super Car Parts",
+        "subcategory": "Engine Components",
+        "description": "Enlarged throttle body for improved throttle response."
+    },
+    {
+        "id": "part-clutch-plates-car",
+        "name": "Clutch Plates",
+        "type": "part",
+        "price": 1200,
+        "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=2083",
+        "category": "Super Car Parts",
+        "subcategory": "Transmission / Drivetrain",
+        "description": "Heavy-duty clutch plates for aggressive driving."
+    },
+    {
+        "id": "part-gearbox-car",
+        "name": "Gearbox Assembly",
+        "type": "part",
+        "price": 12000,
+        "image": "https://images.unsplash.com/photo-1603584173870-7b23111e1f7d?auto=format&fit=crop&q=80&w=2071",
+        "category": "Super Car Parts",
+        "subcategory": "Transmission / Drivetrain",
+        "description": "Complete sequential gearbox assembly."
+    },
+    {
+        "id": "part-driveshaft-car",
+        "name": "Driveshaft",
+        "type": "part",
+        "price": 2800,
+        "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Transmission / Drivetrain",
+        "description": "Carbon fiber driveshaft for reduced weight."
+    },
+    {
+        "id": "part-differential-car",
+        "name": "Differential",
+        "type": "part",
+        "price": 4500,
+        "image": "https://images.unsplash.com/photo-1625078500207-679901460391?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Transmission / Drivetrain",
+        "description": "Limited-slip differential for better traction."
+    },
+    {
+        "id": "part-radiator-car",
+        "name": "Radiator",
+        "type": "part",
+        "price": 2200,
+        "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Cooling System",
+        "description": "High-capacity aluminum radiator for superior cooling."
+    },
+    {
+        "id": "part-water-pump-car",
+        "name": "Water Pump",
+        "type": "part",
+        "price": 1200,
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=2071",
+        "category": "Super Car Parts",
+        "subcategory": "Cooling System",
+        "description": "High-flow water pump for efficient cooling."
+    },
+    {
+        "id": "part-fuel-pump-car",
+        "name": "Fuel Pump",
+        "type": "part",
+        "price": 1800,
+        "image": "https://images.unsplash.com/photo-1627964177303-7b49ef784d69?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Fuel System",
+        "description": "High-pressure fuel pump for performance applications."
+    },
+    {
+        "id": "part-brake-discs-car",
+        "name": "Brake Discs / Rotors",
+        "type": "part",
+        "price": 3500,
+        "image": "https://images.unsplash.com/photo-1563720223523-491ff04651de?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Braking System",
+        "description": "Carbon-ceramic brake discs for extreme stopping power."
+    },
+    {
+        "id": "part-brake-pads-car",
+        "name": "Brake Pads",
+        "type": "part",
+        "price": 1200,
+        "image": "https://images.unsplash.com/photo-1605330397509-328639209587?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Braking System",
+        "description": "High-performance brake pads for track use."
+    },
+    {
+        "id": "part-coilovers-car",
+        "name": "Coilovers",
+        "type": "part",
+        "price": 4200,
+        "image": "https://images.unsplash.com/photo-1603584173870-7b23111e1f7d?auto=format&fit=crop&q=80&w=2071",
+        "category": "Super Car Parts",
+        "subcategory": "Suspension",
+        "description": "Adjustable coil-over suspension system."
+    },
+    {
+        "id": "part-alloy-wheels-car",
+        "name": "Alloy Wheels",
+        "type": "part",
+        "price": 5500,
+        "image": "https://images.unsplash.com/photo-1568213816643-a0e2817dc957?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Wheels & Tyres",
+        "description": "Forged lightweight alloy wheels."
+    },
+    {
+        "id": "part-ecu-car",
+        "name": "ECU / ECM",
+        "type": "part",
+        "price": 3800,
+        "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Car Parts",
+        "subcategory": "Electrical / Electronics",
+        "description": "Programmable engine control unit."
+    },
+    {
+        "id": "part-spark-plugs-car",
+        "name": "Spark Plugs",
+        "type": "part",
+        "price": 450,
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=2071",
+        "category": "Super Car Parts",
+        "subcategory": "Electrical / Electronics",
+        "description": "Iridium spark plugs for better ignition."
+    },
+    {
+        "id": "bike-part-chain",
+        "name": "Chain & Sprockets",
+        "type": "part",
+        "price": 900,
+        "image": "https://images.unsplash.com/photo-1605330397509-328639209587?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Bike Parts",
+        "subcategory": "Transmission / Drivetrain",
+        "description": "High-strength chain and sprocket kit."
+    },
+    {
+        "id": "bike-part-clutch",
+        "name": "Clutch Plates (Bike)",
+        "type": "part",
+        "price": 850,
+        "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=2083",
+        "category": "Super Bike Parts",
+        "subcategory": "Transmission / Drivetrain",
+        "description": "Performance clutch plate set for bikes."
+    },
+    {
+        "id": "bike-part-forks",
+        "name": "Front Forks (USD)",
+        "type": "part",
+        "price": 4200,
+        "image": "https://images.unsplash.com/photo-1603584173870-7b23111e1f7d?auto=format&fit=crop&q=80&w=2071",
+        "category": "Super Bike Parts",
+        "subcategory": "Suspension",
+        "description": "Upside-down front forks with adjustable damping."
+    },
+    {
+        "id": "bike-part-shock",
+        "name": "Rear Mono-Shock",
+        "type": "part",
+        "price": 3500,
+        "image": "https://images.unsplash.com/photo-1625078500207-679901460391?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Bike Parts",
+        "subcategory": "Suspension",
+        "description": "Fully adjustable rear mono-shock absorber."
+    },
+    {
+        "id": "bike-part-brake-discs",
+        "name": "Brake Discs (Bike)",
+        "type": "part",
+        "price": 2200,
+        "image": "https://images.unsplash.com/photo-1563720223523-491ff04651de?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Bike Parts",
+        "subcategory": "Braking System",
+        "description": "Floating brake discs for superior stopping power."
+    },
+    {
+        "id": "bike-part-exhaust",
+        "name": "Performance Exhaust (Bike)",
+        "type": "part",
+        "price": 3800,
+        "image": "https://images.unsplash.com/photo-1567863786971-483a9e46a2d0?q=80&w=2070&auto=format&fit=crop",
+        "category": "Super Bike Parts",
+        "subcategory": "Exhaust System",
+        "description": "Titanium slip-on exhaust for bikes."
+    },
+    {
+        "id": "bike-part-fairings",
+        "name": "Fairings",
+        "type": "part",
+        "price": 5500,
+        "image": "https://images.unsplash.com/photo-1558980663-3685c1d67371?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Bike Parts",
+        "subcategory": "Body / Exterior",
+        "description": "Complete carbon fiber fairing set."
+    },
+    {
+        "id": "bike-part-handlebars",
+        "name": "Handlebars / Clip-ons",
+        "type": "part",
+        "price": 1200,
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=2071",
+        "category": "Super Bike Parts",
+        "subcategory": "Steering / Controls",
+        "description": "Adjustable clip-on handlebars."
+    },
+    {
+        "id": "bike-part-levers",
+        "name": "Brake & Clutch Levers",
+        "type": "part",
+        "price": 650,
+        "image": "https://images.unsplash.com/photo-1605330397509-328639209587?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Bike Parts",
+        "subcategory": "Steering / Controls",
+        "description": "CNC-machined adjustable levers."
+    },
+    {
+        "id": "bike-part-wheels",
+        "name": "Forged Wheels (Bike)",
+        "type": "part",
+        "price": 6500,
+        "image": "https://images.unsplash.com/photo-1568213816643-a0e2817dc957?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Bike Parts",
+        "subcategory": "Wheels & Tyres",
+        "description": "Lightweight forged aluminum wheels."
+    },
+    {
+        "id": "bike-part-battery",
+        "name": "Lithium Battery (Bike)",
+        "type": "part",
+        "price": 850,
+        "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=2070",
+        "category": "Super Bike Parts",
+        "subcategory": "Electrical / Electronics",
+        "description": "Lightweight lithium-ion battery."
+    },
+    {
+        "id": "kit-001",
+        "name": "Mansory Widebody Kit",
+        "type": "kit",
+        "price": 15000,
+        "image": "https://images.unsplash.com/photo-1627454819213-d7d559599525?q=80&w=2070",
+        "category": "Modification Kit",
+        "description": "Complete carbon fiber body transformation kit for aggressive styling."
+    },
+    {
+        "id": "kit-liberty",
+        "name": "Liberty Walk Silhouette Kit",
+        "type": "kit",
+        "price": 18000,
+        "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=2070",
+        "category": "Modification Kit",
+        "description": "Iconic Japanese widebody styling with aggressive fenders."
+    },
+    {
+        "id": "kit-nos",
+        "name": "Nitrous Express System",
+        "type": "kit",
+        "price": 1200,
+        "image": "https://images.unsplash.com/photo-1605330397509-328639209587?auto=format&fit=crop&q=80&w=2070",
+        "category": "Modification Kit",
+        "description": "Instant power boost at the push of a button."
+    }
+]
